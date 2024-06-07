@@ -3,7 +3,7 @@ import axios from "axios";
 // Rest API 요청
 const apiClient = axios.create(
     {
-        baseURL : 'https://java.soll-parking.store/auth'
+        baseURL : 'https://port-0-soll-pn2llx4tu797.sel5.cloudtype.app/auth'
     }
 )
 
