@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Rest API 요청
 const apiClient = axios.create({
-    baseURL: "https://java.soll-parking.store/bookmark",
+    baseURL: "https://java.soll-parking.store/parking-lot/bookmark",
 });
 
 export const getFavoriteList = () => {
